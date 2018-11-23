@@ -24,7 +24,7 @@ The package functions of `myfitness` are described below. The use of the package
 `healthdata`
 This subpackage is meant to provide users a method of importing data as well as viewing the data interactively. 
 
-Detailed descriptions  `data` module in the `healthdata` subpackage is shown below:  
+Detailed descriptions of the `data` module in the `healthdata` subpackage is shown below:  
 
 | Module        | Description                                                            | Parameters        | Return                  |
 | -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
@@ -32,14 +32,14 @@ Detailed descriptions  `data` module in the `healthdata` subpackage is shown bel
 | `display`      | Displays the name, age and gender of a Person() object                | Person() object   | Attributes name, age, and gender| 
 | `healthdata`   | Create a object of class healthdata() this inherits from the superclass Person()| name, age, gender, csv file downloaded from Apple Health | Display of healthdata object attributes name, age, gender and dataframe containing healthdata() object file|
 
-Detailed description of `chart` module in the `healthdata` subpackage is shown below:  
+Detailed descriptions of the  `chart` module in the `healthdata` subpackage is shown below:  
 
 | Module        | Description                                                            | Parameters        | Return                  |
 | -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
 | `chart`     | Creates an interactive bar graph using pygal | columnX as list of strings, columnY as list of values, xlabel as string, ylabel as string |.svg file with xlabel, ylabel and title|
 
 `summary`
-This subpackage is meant to provide users a with some basic statistically analysis of their data. 
+This subpackage is meant to provide users with some basic statistical analysis tools to view their data. This subpackage works specifically with Apple Health data.
 
 Detailed descriptions  of the `table` module in the `summary` subpackage is shown below:  
 
