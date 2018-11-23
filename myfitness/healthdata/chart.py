@@ -2,8 +2,8 @@ def chart(columnX, columnY, xlabel, ylabel):
     import pygal
     from IPython.display import SVG, display
 
-    y = columnX
-    x = columnY
+    y = columnY
+    x = columnX
     bar_chart = pygal.Bar(include_x_axis=True)
     bar_chart.add(ylabel,y)
     bar_chart.title = 'My Fitness Chart'
