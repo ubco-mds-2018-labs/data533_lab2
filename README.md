@@ -38,6 +38,19 @@ Detailed description of `chart` module in the `healthdata` subpackage is shown b
 | -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
 | `chart`     | Creates an interactive bar graph using pygal | columnX as list of strings, columnY as list of values, xlabel as string, ylabel as string |.svg file with xlabel, ylabel and title|
 
+`summary`
+This subpackage is meant to provide users a with some basic statistically analysis of their data. 
 
+Detailed descriptions  of the `table` module in the `summary` subpackage is shown below:  
 
+| Module        | Description                                                            | Parameters        | Return                  |
+| -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
+| `table`     | Function to summarize the average number of steps taken per month using the pandas package | data: Apple Health .csv file imported as a Pandas DataFrame | A Pandas dataframe, summarizing the average number of steps taken by month, indicated by the last date of the month.|
+
+Detailed descriptions  of the `maxMin` module in the `summary` subpackage is shown below:  
+
+| Module        | Description                                                            | Parameters        | Return                  |
+| -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
+| `getMax`     | Find the maximum number of steps in the data and the date it was achieved. | data: Pandas DataFrame containing Apple Health data imported from a .csv file.|The row of values for when the maximum number of steps were achieved:Start date, Finish date,Distance(mi), Steps (count)|
+| `getMin`      |Find the maximum number of steps in the data and the date it was achieved.|data: Pandas DataFrame containing Apple Health data imported from a.csv file. |The row of values for when the maximum number of steps were achieved:Start date, Finish date, Distance(mi), Steps (count)| 
 
