@@ -20,11 +20,17 @@ The package written is titled `myfitness`
 ## Package Structure
 
 `myfitness` --> package
+  
   -- `healthdata` --> sub-package
+  
     -- `data` --> module
+    
     -- `chart` -->module
+  
   -- `summary` --> sub-package
+    
     -- `table` --> module
+    
     -- `maxmin` --> module
 
 ## Package Details
