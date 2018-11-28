@@ -23,15 +23,15 @@ The package written is titled `myfitness`
   
   -- `healthdata` --> sub-package
   
-    --\`data` --> module
+   --`data` --> module
     
-    -- \`chart` -->module
+   --`chart` -->module
   
   -- `summary` --> sub-package
     
-    -- \`table` --> module
+   --`table` --> module
     
-    -- \`maxmin` --> module
+   --`maxmin` --> module
 
 ## Package Details
 
