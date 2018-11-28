@@ -38,7 +38,7 @@ class healthdata(Person):
         
         Return: Display of healthdata object attributes name, age, gender and dataframe containing healthdata() object file"""
         
-		import pandas as pd # ensure pandas is imported
+        import pandas as pd # ensure pandas is imported
         self.data = pd.read_csv(self.file) # import the self.file into a dataframe using pandas
         Person.display(self) #display object attributes using inherited display() finction 
         return self.data
